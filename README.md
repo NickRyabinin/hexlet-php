@@ -1,2 +1,2 @@
 # hexlet-php
-Test repository
+Мой первый проект на Хекслете
