@@ -1,0 +1,19 @@
+{
+    "name": "nick/hexlet-php",
+    "description": "educational project",
+    "type": "project",
+    "license": "free",
+    "autoload": {
+        "psr-4": {
+            "Nick\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Николай Рябинин",
+            "email": "rnn2002@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
