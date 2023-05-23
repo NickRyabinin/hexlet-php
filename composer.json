@@ -15,5 +15,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "tightenco/collect": "dev-laravel-9-ongoing"
+    }
 }
