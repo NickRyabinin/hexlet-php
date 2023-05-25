@@ -6,7 +6,10 @@
     "autoload": {
         "psr-4": {
             "Nick\\HexletPhp\\": "src/"
-        }
+        },
+        "files": [
+             "src/Runner.php"
+        ]
     },
     "authors": [
         {
@@ -17,5 +20,11 @@
     "minimum-stability": "dev",
     "require": {
         "tightenco/collect": "dev-laravel-9-ongoing"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "4.0.x-dev"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
     }
 }
